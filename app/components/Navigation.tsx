@@ -6,8 +6,8 @@ import { usePathname } from 'next/navigation';
 const navItems = [
   { href: '/', label: 'Schema idag', icon: '📅' },
   { href: '/schema', label: 'Veckoschema', icon: '📋' },
-  { href: '/tid', label: 'Stämpla', icon: '🕐' },
-  { href: '/pass', label: 'Lediga pass', icon: '✋' },
+  { href: '/messages', label: 'Meddelanden', icon: '💬' },
+  { href: '/settings', label: 'Inställningar', icon: '⚙️' },
 ];
 
 export function Navigation() {
